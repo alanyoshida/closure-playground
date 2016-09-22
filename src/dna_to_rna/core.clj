@@ -6,3 +6,5 @@
   "I don't do a whole lot ... yet."
   [& args]
   (println (converter/hello "Alan")))
+
+(converter/to-rna ["G" "C" "A" "T"])
